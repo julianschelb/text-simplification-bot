@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "text_simplification_bot"
+version = "0.1.0"
+description = "A simple bot for simplifying texts using language models."
+authors = ["Iro Malta <iro.malta@uni-konstanz.de>", "Julian Schelb <julian.schelb@uni-konstanz.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.0"
+gradio = "^4.44.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
